@@ -97,18 +97,18 @@ html, body {
 }
 
 .button {
-    background-color: #706d6b; 
-    border: 2px solid #1fc6e0;
-    border-radius: 8px;
-    color: white;
-    padding: 10px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
+	background-color: #706d6b;
+	border: 2px solid #1fc6e0;
+	border-radius: 8px;
+	color: white;
+	padding: 10px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
 }
 
 input {
@@ -116,28 +116,43 @@ input {
 }
 
 .button:hover {
-	background-color: #1fc6e0; 
-    color: white;
+	background-color: #1fc6e0;
+	color: white;
 }
 
 .button1 {
-    background-color: #706d6b; 
-    border: 2px solid #03ba3d;
-    border-radius: 8px;
-    color: white;
-    padding: 10px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
+	background-color: #706d6b;
+	border: 2px solid #03ba3d;
+	border-radius: 8px;
+	color: white;
+	padding: 10px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.button2 {
+	background-color: #706d6b;
+	border: 2px solid #e20f2c;
+	border-radius: 8px;
+	color: white;
+	padding: 10px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
 }
 
 .button1:hover {
-	background-color: #03ba3d; 
-    color: white;
+	background-color: #03ba3d;
+	color: white;
 }
 
 .button1:active {
