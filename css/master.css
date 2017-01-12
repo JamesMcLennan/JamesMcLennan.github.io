@@ -1,0 +1,145 @@
+html{
+	background-color: #706d6b;
+}
+.title{
+	font-family: "Lobster", cursive;
+	font-size: 40px;
+	color: white;
+	text-align: left;
+}
+
+.nav{
+	font-family:"Istok Web", sans-serif;
+	font-size:15px;
+	color: white;
+}
+
+.divback{
+	background-color: #706d6b;
+	padding-left: 5px;
+}
+
+.CRSLoader{
+	font-family:"Istok Web", sans-serif;
+	color: white;
+	margin: 10px;
+	padding-left: 25px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	background-color: #147382;
+	border-radius: 10px;
+	line-height: 125%;
+}
+
+.divbackorange{
+	background-color: #147382;
+	font-family: 'Cabin', sans-serif;
+	border-radius: 5px;
+}
+
+.divbackfelgreen{
+	background-color: #6EA90E;
+	font-family: 'Cabin', sans-serif;
+	border-radius: 5px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.li{
+	float: left; /* Allows the links to be located next to each other */
+}
+
+.li a{
+	display: block;
+	color: white; /* Text colour */
+	text-align: center; /* Center within each block */
+	padding: 14px 16px; /* Enables gaps between each list item*/
+	text-decoration: none; /* Removes the "link" decoration*/
+	border-radius: 5px;
+}
+
+.li a:hover:not(.active){
+	background-color: #1dabc1;
+	border-radius: 5px;
+}
+
+.li a.active{
+	background-color: #1fc6e0;
+	border-radius: 5px;
+}
+
+footer{
+	text-align: center;
+	font-size: 10px;
+}
+
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: 100%;
+	margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+	height: 155px; /* .push must be the same height as .footer */
+}
+
+.savedRefNums {
+	border-style: groove;
+	width:50%;
+	padding-left: 15px;
+}
+
+.button {
+    background-color: #706d6b; 
+    border: 2px solid #1fc6e0;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+input {
+	padding: 5px 8px;
+}
+
+.button:hover {
+	background-color: #1fc6e0; 
+    color: white;
+}
+
+.button1 {
+    background-color: #706d6b; 
+    border: 2px solid #03ba3d;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1:hover {
+	background-color: #03ba3d; 
+    color: white;
+}
+
+.button1:active {
+	border: 2px solid #c6030d;
+}
