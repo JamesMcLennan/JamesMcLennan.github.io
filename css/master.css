@@ -155,6 +155,7 @@ input {
 	color: white;
 }
 
-.button1:active {
-	border: 2px solid #c6030d;
+.button2:hover {
+	background-color: #e20f2c;
+	color: white;
 }
