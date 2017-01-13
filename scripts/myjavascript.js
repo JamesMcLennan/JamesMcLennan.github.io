@@ -32,9 +32,11 @@ function createLink() {
 
     if(lastid == 0) {
       document.getElementById("savedRefNums").style.display = "none";
+      document.getElementById("CRSSaver").style.display = "none";
     }
     else {
       document.getElementById("savedRefNums").style.display = "block";
+      document.getElementById("CRSSaver").style.display = "inline-block";
     }
   }
 
@@ -89,6 +91,7 @@ function saved() {
 
   if(lastid == 1) {
     document.getElementById("savedRefNums").style.display = "block";
+    document.getElementById("CRSSaver").style.display = "inline-block";
   }
 }
 
@@ -99,6 +102,7 @@ function removeRef(itemid) {
   lastid--;
   if(lastid == 0) {
     document.getElementById("savedRefNums").style.display = "none";
+    document.getElementById("CRSSaver").style.display = "none";
   }
 }
 

@@ -23,7 +23,7 @@
       </div>
     </nav>
     <div class="CRSLoader">
-      <h1 class="title">CRS Loader</h1>
+      <h1 class="title" >CRS Loader</h1>
       <form id="test">
         <b id="red">
           <input type="text" id="redir" name="redir"/>
@@ -47,13 +47,14 @@
             <input type="text" id="fnTextBox" name="fnTextBox" style="display:none"/><button type="button" id="saveButton" style="display:none" onclick="saved()" class="button">Save</button>
           </b>
         </form>
-
+      </div>
+      <div class ="CRSSaver" id="CRSSaver" style="display:none;">
         <div class= "savedRefNums" id="savedRefNums" style="display:none;">
-          <h2>Saved Reference Numbers</h2>
-          <ol id="savedDeets"></ol>
+          <h1 class="title">Saved Reference Numbers</h1>
+          <ol id="savedDeets" style="display: inline-block"></ol>
         </div>
       </div>
-      <div class="CRSLoader">
+      <div class="CRSCreator">
         <h1 class="title">CRS Creator</h1>
         <a href="https://village.inqubacx.com/CEMS/#/Incident/" class="button" target="_main">Create Issue</a>
       </div>
