@@ -23,12 +23,32 @@ function getCookie(cname) {
 
 function checkCookie() {
     var user=getCookie("username");
-    if (user != "") {
+    if (user != "" && user == "CSJames") {
         alert("Welcome again " + user);
-    } else {
-       user = prompt("Please enter your name:","");
+    }
+
+    else {
+       user = prompt("Please create your username:","");
        if (user != "" && user != null) {
            setCookie("username", user, 30);
        }
     }
+}
+
+function termsAndConditions() {
+  var checkTCs = getCookie("acceptT&C's");
+
+  if (checkTCs != "") {
+    checkCookie();
+  }
+  else {
+    var answer = confirm("This website stores a basic cookie to remember your username. You must agree to continue otherwise you cannot save reference numbers.");
+    if(answer) {
+      checkCookie();
+      setCookie("acceptT&C's", answer, 30);
+    }
+    else {
+      alert("You cannot save reference numbers, however you are free to use the website.");
+    }
+  }
 }
