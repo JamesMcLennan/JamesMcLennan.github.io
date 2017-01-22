@@ -192,3 +192,7 @@ input {
 	background-color: #e20f2c;
 	color: white;
 }
+
+.disable {
+	cursor: not-allowed;
+}
