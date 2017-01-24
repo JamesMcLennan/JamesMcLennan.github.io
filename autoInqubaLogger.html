@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+    <script>
+      function validateForm() {
+        var inputfirstName = $("#firstName").val();
+        var inputsurName = $("#surName").val();
+        var inputEmail = $("#email").val();
+
+        if(inputfirstName != "" && inputsurName != ""){
+          // Assign values to parameters object
+         var params = {
+             "FirstName" : inputfirstName,
+             "Surname" : inputsurName,
+             "EmailIdentifier" : inputEmail,
+             "typeSelect" : "number:4",
+             "preferenceSelect" : "number:1",
+             "sourceSelect" : "2",
+             "caseDescription" : "test"
+         };
+
+         // Send the parameters to the selected URL
+         var ajaxPost = $.ajax({
+             url: "https://village.inqubacx.com/CEMS/#/Incident/",
+             type: "POST",
+             data: params
+         });
+
+         // What to do upon success
+         ajaxPost.done(function(data, textStatus){
+             console.log("Success!");
+             console.log("data");
+             console.log(data);
+             data.load();
+         });
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <form method="link" action="https://village.inqubacx.com/CEMS/#/Incident/">
+    <div class="CRSCreator">
+      <h1 class="title">CRS Creator</h1>
+      <input id="firstName" type="text" name="username" value=""/>
+      <input id="surName" type="text" name="passwd" value=""/>
+      <input id="email" type="email" name="email" value=""/>
+      <input type="submit" value="test">
+    </form>
+    </div>
+  </body>
+</html>
