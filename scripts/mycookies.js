@@ -46,7 +46,7 @@ function termsAndConditions() {
     if(answer) {
       checkCookie();
       setCookie("acceptT&C's", answer, 30);
-      document.getElementById("confirmSave").setAttribute('onClick', 'saveLink()');
+      document.getElementById("confirmSave").setAttribute('onClick', 'saveLink();');
     }
     else {
       alert("You cannot save reference numbers, however you are free to use the website.");
