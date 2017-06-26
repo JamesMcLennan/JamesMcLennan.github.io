@@ -12,8 +12,6 @@ html{
 	font-family:"Istok Web", sans-serif;
 	font-size:15px;
 	color: white;
-	width: 25%;
-	margin-left: 35%;
 }
 
 .divback{
@@ -73,18 +71,10 @@ html{
 	border-radius: 5px;
 }
 
-.divbacktitle{
-	background-color: #147382;
+.divbackfelgreen{
+	background-color: #6EA90E;
 	font-family: 'Cabin', sans-serif;
 	border-radius: 5px;
-	padding: 5px;
-	margin: 5px;
-	margin-left: 35%;
-	width: 35%;
-	text-align: left;
-	font-family: "Lobster", cursive;
-	color: white;
-	text-align: left;
 }
 
 ul{
